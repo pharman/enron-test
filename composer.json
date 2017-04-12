@@ -1,0 +1,19 @@
+{
+    "name": "paul.harman-admin/enron-test",
+    "description": "Enron Test",
+    "require": {
+        "react/react": "^0.4.2",
+        "react/event-loop": "^0.4.2",
+        "phpunit/phpunit": "^6.1"
+    },
+    "authors": [
+        {
+            "name": "pharman",
+            "email": "paul.harman@sainsburys.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {"Enron\\": "src/"}
+    }
+}
